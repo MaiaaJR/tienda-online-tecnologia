@@ -1,8 +1,8 @@
 
 .carrousel-item img {
-    width: 100%;
-    height: 200px;
     object-fit:cover;
+    width: 100%;
+    height: 400px;
 }
 
 .carousel-control-prev-icon,
@@ -10,4 +10,24 @@
     background-color: black;
     color: white;
     border-bottom: 150%; 
+}
+
+.nav-link {
+    color: black;
+    font-weight: bold; 
+}
+.nav-link:hover {
+    color: #0037ff; 
+}
+.dropdown-menu {
+    background-color: #ffffff;
+}
+.dropdown-item {
+    color: black; 
+    font-weight: bold; 
+}
+.dropdown-item:hover {
+    background-color: #ffffff;
+    font-weight: bold;
+    color: black;
 }
