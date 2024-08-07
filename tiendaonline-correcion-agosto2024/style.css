@@ -1,0 +1,246 @@
+
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: white;
+    color: black;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.nav-link {
+    color: black; 
+}
+
+.nav-link.active {
+    color: black;
+}
+
+.nav-link:hover, .nav-link.active:hover {
+    background-color: rgb(187, 241, 241);
+    color: black; 
+}
+
+.dropdown-menu {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.dropdown-item {
+    color: black;
+    font-weight: bold;
+}
+
+.dropdown-item:hover {
+    background-color: rgb(187, 241, 241);
+    color: black;
+    font-weight: bold;
+}
+
+#toggleMode:hover {
+    border-color: #000000;
+    box-shadow: 0 0 0 0.5rem  rgb(187, 241, 241);
+}
+
+#toggleMode {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+    opacity: 0;
+    transform: translateY(-50px);
+    animation: fadeInDown 1.5s ease forwards;
+}
+
+@keyframes fadeInDown {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.redes {
+    padding-top: 35px;
+}
+
+footer, .form {
+    background-color: white;
+}
+
+footer, .form h3 {
+    background-color: white;
+    font-weight: bold;
+}
+
+.form-control:focus {
+    border-color: #000000;
+    box-shadow: 0 0 0 0.5rem  rgb(187, 241, 241);
+    transform: scale(1.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control {
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.carousel-caption h5, 
+.carousel-caption p {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.productos h2 {
+    text-align: center;
+}
+
+#mensajeError {
+    color: red;
+
+}
+
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+    }
+}
+
+[data-theme='dark'] {
+    background-color: black;
+    color: white;
+    
+    header {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .navbar-brand {
+        color: white;
+    }
+
+    .navbar {
+        background-color: black;
+    }
+    
+    .nav-link {
+        color: white;
+    }
+    
+    .nav-link.active {
+        color: white;
+    }
+    
+    .nav-link:hover, .nav-link.active:hover {
+        background-color: rgb(187, 241, 241);
+        color: black; 
+        font-size: bold;
+    }
+    
+    .dropdown-menu {
+        background-color: black;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .dropdown-item {
+        color: white;
+        font-weight: bold;
+    }
+    
+    .dropdown-item:hover {
+        background-color: rgb(187, 241, 241);
+        color: black;
+        font-weight: bold;
+    }
+
+    #toggleMode {
+        background-color: white;
+        color: black;
+    }
+
+    #toggleMode:hover {
+        border-color: #000000;
+        box-shadow: 0 0 0 0.5rem  rgb(187, 241, 241);
+    }
+
+    .navbar-toggler, .navbar-toggler-icon {
+        background-color: white;
+    }
+    
+    h1 {
+        font-size: 3rem;
+        font-weight: bold;
+        color: white;
+        opacity: 0;
+        transform: translateY(-50px);
+        animation: fadeInDown 1.5s ease forwards;
+    }
+    
+    @keyframes fadeInDown {
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    .redes {
+        padding-top: 35px;
+    }
+    
+    footer, .form {
+        background-color: black;
+    }
+    
+    footer, .form h3 {
+        background-color: black;
+        font-weight: bold;
+    }
+    
+    .form-control:focus {
+        border-color: #000000;
+        box-shadow: 0 0 0 0.5rem  rgb(187, 241, 241);
+        transform: scale(1.05);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .form-control {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .carousel-caption h5, 
+    .carousel-caption p {
+        text-align: center;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .productos h2 {
+        text-align: center;
+    }
+
+    #mensajeError {
+        color: red;
+    }
+}

@@ -1,0 +1,26 @@
+PROYECTO: M&L TIENDA ONLINE
+
+-La página principal incluye un navbar para navegación, un carrusel de imágenes, y secciones para productos destacados y contacto. 
+-Utiliza el menú de navegación para explorar diferentes secciones.
+
+Características:
+
+-Navbar: Menú de navegación con enlaces a las principales secciones del sitio.
+-Carrusel: Presenta imágenes de productos destacados.
+-Sección de Productos: Muestra productos populares con enlaces para más detalles.
+-Formulario de Contacto: Incluye validaciones para asegurar que los campos se completen correctamente.
+-Configuración del Modo Oscuro/Claro: el botón "Cambiar modo vista" permite alternar entre modo oscuro y claro. Se utiliza JavaScript para cambiar las clases de los elementos y CSS para aplicar los estilos adecuados.
+
+Validaciones del Formulario:
+
+Nombre: Campo obligatorio.
+Teléfono: Campo obligatorio y debe contener solo números.
+Correo Electrónico: Campo obligatorio con validación de formato.
+Mensaje: Campo obligatorio.
+
+Estilos:
+Estilos: Utiliza Bootstrap y CSS personalizado para diseñar el sitio.
+Animaciones: Animaciones aplicadas a los encabezados y al carrusel para una mejor experiencia de usuario.
+
+Accesibilidad:
+Se ha implementado un contraste alto para mejorar la legibilidad y se han aplicado buenas prácticas de accesibilidad en los formularios y en la navegación.
